@@ -116,6 +116,7 @@ const count = useSelector((state) => state.count);
 ![](https://blogfiles.pstatic.net/20200728_44/home1609_1595870147067d3PMB_PNG/directory_structure.png?type=w2)
 
 - 실행 이미지
+
   ![](https://blogfiles.pstatic.net/20200729_42/home1609_1595950254721b5Ga3_PNG/todo.png?type=w2)
 
 # 리덕스 모듈 코드
