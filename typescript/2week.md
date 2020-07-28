@@ -97,7 +97,7 @@ reducer의 switch구문안에서 어떤 타입이냐에 따라 다른 state가 r
 
 action이 dispatch되어 store의 값이 바뀌었을때
 그 값을 참조하기위해서 subscribe함수란 redux내장 메서드가 있다.
-react에서는 useRecuder나 connet함수가 그 기능을 한다.
+react에서는 useSelector나 connet함수가 그 기능을 한다.
 
 ```javascript
 const count = useSelector((state) => state.count);
