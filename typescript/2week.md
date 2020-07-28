@@ -109,6 +109,7 @@ const count = useSelector((state) => state.count);
 이번 예제에서는 역할별 다른 모듈로 나누고 또 그 모듈 action, type, reducer에 관련된것에 따라 나눌것이다.(todo밖에 없다...)
 
 - 구조
+
   ![](https://blogfiles.pstatic.net/20200728_221/home1609_15958698002276vB8g_PNG/ts-redux.png?type=w2)
 
 - 폴더구조
