@@ -87,7 +87,7 @@ dispatch(increase(3));
 뜻 : store의 count란 변수를 3만큼 증가시킬거야.
 
 설명 : increase라는 액션생성함수에 3이란 값을 넣어서 호출했기 때문에
-{type:'increase', payload: 3}이라는 액션객체를 만들고
+{type:'increase', payload: 3}이라는 액션객체가 만들어지고
 그 객체를 dispatch한다.(액션을 발생시킨다. ≒ 액션을 dispatch한다.)
 액션이 dispatch되면 reducer에게 액션객체가 전달되고
 reducer의 switch구문안에서 어떤 타입이냐에 따라 다른 state가 return되고 결국 store의 count라는 변수의 값이 바뀌게 된다.
@@ -105,8 +105,8 @@ const count = useSelector((state) => state.count);
 
 # TypeScript Redux
 
-간단한 todoList에는 TypeScript redux 는 과하고 많은 라이브러리가 더해졌지만이지만 이번 예제를 하면서 많은 공부가 되었다.
-이번 예제에서는 역할별 다른 모듈로 나누고 또 그 모듈 action, type, reducer에 관련된것에 따라 나눌것이다.
+간단한 todoList에 TypeScript와 redux와 많은 라이브러리가 더해져서 충분히 과하지만 이번 예제를 하면서 많은 공부가 되었다.
+이번 예제에서는 역할별 다른 모듈로 나누고 또 그 모듈 action, type, reducer에 관련된것에 따라 나눌것이다.(todo밖에 없다...)
 
 - 구조
   ![](https://blogfiles.pstatic.net/20200728_221/home1609_15958698002276vB8g_PNG/ts-redux.png?type=w2)
@@ -114,6 +114,9 @@ const count = useSelector((state) => state.count);
 - 폴더구조
 
 ![](https://blogfiles.pstatic.net/20200728_44/home1609_1595870147067d3PMB_PNG/directory_structure.png?type=w2)
+
+- 실행 이미지
+  ![](https://blogfiles.pstatic.net/20200729_42/home1609_1595950254721b5Ga3_PNG/todo.png?type=w2)
 
 # 리덕스 모듈 코드
 
