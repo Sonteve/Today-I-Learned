@@ -20,6 +20,7 @@ console.dir(sonteve);
 
 우리가 생성한 name과 따로 생성하지 않은 \_**\_proto\_\_** 라는 속성이있다.
 \_**\_proto\_\_**를 보면 어떤 객체의 프로퍼티가 나와있고 내가 만든 프로퍼티처럼 직접 사용도 가능하다.
+**proto**가 가리키는 대상은 모든객체의 부모격인 Object.prototype 객체이다.
 sonteve객체가 Object.prototype객체의 프로퍼티들을 상속받기때문에
 객체 내부에 없는 메서드를 sonteve.toString() 이런식으로 호출이 가능했던 것이다.
 
